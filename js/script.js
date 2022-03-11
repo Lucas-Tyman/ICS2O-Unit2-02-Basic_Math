@@ -10,5 +10,6 @@
 function doMathClicked() {
   // this function does basic math
 
-document.getElementById('multiply-math').innerHTML = '<p>5 × 3 = ' + (5 * 3) + '</p>'
-document.getElementById('multiply-math').innerHTML = '<p>3  2 × (5 + 3) = ' + (2 * (5 * 3) + '</p>'
+document.getElementById('area-math').innerHTML = '<p>The area is= ' + (5 * 3) + '</p>'
+document.getElementById('perimeter-math').innerHTML = '<p>The perimeter is= ' + (2 * (5 + 3)) + '</p>'
+}
